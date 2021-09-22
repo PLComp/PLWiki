@@ -1,0 +1,12 @@
+tags: published ghc grin
+title: 2021-01-07 Next-gen Haskell Compilation Techniques
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+**Next-gen Haskell Compilation Techniques**
+
+На мой взгляд, презентация интересна будет многим компиляторщикам. Автор приводит массу академических ссылок. В целом, речь идет о проблематике организации архитектуры современного компилятора. Мне, например, очень понравилась идея с использованием Datalog, которая дополнительно себя оправдала и с точки зрения производительности статического анализа.
+
+[https://docs.google.com/presentation/u/0/d/1g_-bHgeD7lV4AYybnvjgkWa9GKuP6QFUyd26zpqXssQ/mobilepresent](https://docs.google.com/presentation/u/0/d/1g_-bHgeD7lV4AYybnvjgkWa9GKuP6QFUyd26zpqXssQ/mobilepresent)
+

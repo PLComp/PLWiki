@@ -1,0 +1,15 @@
+tags: published fp
+title: 2020-05-21 На этой неделе появился официальный self-hosted дистрибутив...
+type: text/x-markdown
+
+Автор: None
+
+На этой неделе появился официальный self-hosted дистрибутив функционального языка с зависимыми типами **Idris 2**. 
+
+На текущем этапе он использует в качестве бэкенда один из трех компиляторов Scheme: Chez, Racket или Gambit. Как и в первой версии Idris, есть инфраструктура для создания собственных бэкендов на основе нескольких IR c лямбдами (обычный LC, lifted форма, ANF, виртуальная машина с замыканиями). 
+
+[https://github.com/idris-lang/Idris2/](https://github.com/idris-lang/Idris2/)
+
+**Why is Idris 2 so much faster than Idris 1?**
+[https://www.type-driven.org.uk/edwinb/why-is-idris-2-so-much-faster-than-idris-1.html](https://www.type-driven.org.uk/edwinb/why-is-idris-2-so-much-faster-than-idris-1.html)
+

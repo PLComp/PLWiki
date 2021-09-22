@@ -1,0 +1,17 @@
+tags: published optimization synth
+title: 2020-05-12 Основные работы по методу насыщения равенствами (equality...
+type: text/x-markdown
+
+Автор: None
+
+Основные работы по методу насыщения равенствами (equality saturation)
+
+**Denali: A Goal-directed Superoptimizer** (в работе описывается применение E-Graphs для задач оптимизации программ)
+[https://courses.cs.washington.edu/courses/cse501/15sp/papers/joshi.pdf](https://courses.cs.washington.edu/courses/cse501/15sp/papers/joshi.pdf)
+
+**Equality Saturation: A New Approach to Optimization** (вместо E-Graphs используются PEG/E-PEG, поддерживающие управляющие конструкции)
+[https://www.cs.cornell.edu/~ross/publications/eqsat/](https://www.cs.cornell.edu/~ross/publications/eqsat/)
+
+**"Доказательство свойств функциональных программ методом насыщения равенствами"** (диссертация на русском языке)
+[https://keldysh.ru/council/1/2017-grechanik/diss.pdf](https://keldysh.ru/council/1/2017-grechanik/diss.pdf)
+

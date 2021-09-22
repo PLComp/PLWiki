@@ -1,0 +1,19 @@
+tags: published lisp metacompiler
+title: 2020-05-19 Работы Ian Piumarta, участника проекта STEPS
+type: text/x-markdown
+
+Автор: None
+
+Работы Ian Piumarta, участника проекта STEPS
+
+**Maru**
+Миниатюрный расширяемый Лисп-подобный язык с компилятором в IA32-код. Использовался в проекте STEPS.
+Open, extensible composition models
+[https://www.piumarta.com/freeco11/freeco11-piumarta-oecm.pdf](https://www.piumarta.com/freeco11/freeco11-piumarta-oecm.pdf)
+STEPS Toward the Reinvention of Programming, 2012 Final Report
+[http://www.vpri.org/pdf/tr2012001_steps.pdf](http://www.vpri.org/pdf/tr2012001_steps.pdf)
+
+**PEG-based transformer provides front-, middleand back-end stages in a simple compiler**
+[http://www.vpri.org/pdf/tr2010003_PEG.pdf](http://www.vpri.org/pdf/tr2010003_PEG.pdf)
+Шедевр изящества и миниатюризации в области генераторов компиляторов.
+

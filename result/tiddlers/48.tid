@@ -1,0 +1,12 @@
+tags: published analysis datalog smt
+title: 2020-08-08 Formulog -- выразительный DSL для задач статического...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Formulog -- выразительный DSL для задач статического анализа.
+Основан на Datalog и ML, реализация использует SMT-решатель.
+
+**Formulog: ML + Datalog + SMT**
+[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/](http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/)
+

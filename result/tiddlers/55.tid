@@ -1,0 +1,23 @@
+tags: published 
+title: 2020-11-12 (Это мой старый перечень, но интерес, как мне кажется, он...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+(Это мой старый перечень, но интерес, как мне кажется, он все еще представляет) Ниже я хочу представить краткий список полновесных книг по **специальным вопросам** компиляции. Эти книги много дали лично мне. Надеюсь, они окажутся в соответствующий момент полезными и вам.
+
+1. Automatic Algorithm Recognition and Replacement. A New Approach to Program Optimization ([https://mitpress.mit.edu/books/automatic-algorithm-recognition-and-replacement?cr=reset](https://mitpress.mit.edu/books/automatic-algorithm-recognition-and-replacement?cr=reset)). 
+
+Тема распознавания алгоритмов очень мало изучена. Но перспективы здесь самые впечатляющие. Оптимизации на уровне алгоритмов, автоматическое распараллеливание и проч. Весьма вдохновляющее чтение. 
+
+2. Reasoning About Program Transformations. Imperative Programming and Flow of Data. ([https://www.springer.com/us/book/9780387953915](https://www.springer.com/us/book/9780387953915)). 
+
+Очень нетипичная книга по анализу и преобразованиям программ. Доходчиво написано, автор предмет понимает настолько глубоко, что не стесняется быть субъективным, оригинальным в изложении традиционной теории. Рассматривается в том числе полиэдральная модель программы.
+
+3. Instruction Selection. Principles, Methods, and Applications. ([https://www.springer.com/us/book/9783319340173](https://www.springer.com/us/book/9783319340173)). 
+
+Такого подробного, эницклопедического обзора подходов к выбору инструкций не хватало давно. Автор систематизировал различные приемы, использовал в изложении исторический контекст. 
+
+4. Partial Evaluation and Automatic Program Generation ([https://www.itu.dk/~sestoft/pebook/](https://www.itu.dk/~sestoft/pebook/)). 
+
+В наше время все чаще на практике используются давние результаты Турчина, Футамуры, Ершова и других исследователей в области частичных вычислений/метапрограммирования. В какой-то момент, после прочтения очередной заметки в блоге с упоминанием проекций Футамуры (PyPy, Truffle и так далее), нелишне будет открыть и эту книгу, где подробно изложены все эти темы.

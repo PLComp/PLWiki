@@ -1,0 +1,10 @@
+tags: published synthesis smt
+title: 2020-05-27 Очень доходчивый и практико-ориентированный разбор одной из...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Очень доходчивый и практико-ориентированный разбор одной из ключевых статей в области супероптимизации на основе метода CEGIS. Автор даже не поленился расшифровать формулы из статьи для тех, кто сторонится математической нотации.
+**Synthesizing Loop-Free Programs with Rust and Z3**
+[https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html](https://fitzgeraldnick.com/2020/01/13/synthesizing-loop-free-programs.html)
+

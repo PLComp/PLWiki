@@ -1,0 +1,7 @@
+tags: interpreter rag graalvm llvm linking lengauertarjan stlc dominator classic racket leroy dsl gradual emacs fortranh optimization rust unison smt ssa bliss separatecompilation datalog analysis compiler trace ag spoofax cps implementation static metacompiler lcc machinelearning modules gc libfirm parsing ocaml transpilation multicore gcc semantics dex lisp fortran vliw bpf JIT jit architecture smie constraintprogramming verification ml scheme linearscan pqcc instructionscheduling metaii autotuning jvm history education types superoptimizer synth pbqp grin lua android vm cpp langworkbench ghc Lua sml registerallocation solver registeralloc synthesis comparison peg pe macros fp haskell scala stratego conf isa editor nanopass garbagecollection art python codegen indentation
+title: PLComp
+type: text/vnd.tiddlywiki
+
+PLComp
+
+<<list-links "[tag[published]reverse[]]">>

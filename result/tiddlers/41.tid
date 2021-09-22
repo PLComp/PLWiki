@@ -1,0 +1,32 @@
+tags: published ml analysis transpilation
+title: 2020-06-10 Unsupervised Translation of Programming Languages
+type: text/x-markdown
+
+Автор: alekum
+
+**Unsupervised Translation of Programming Languages**
+Довольно любопытная статья на тему создания транскомпилятора от исследователей из Facebook AI Research.
+Путем тренировки модели, на корпусе программ из Github, транслируют код языков C++, Java, Python. 
+
+Авторы  показывают, что их модель превосходит работы в данной области, основанные на подходе 
+использования правил. Из интересного, прямой цитатой  из статьи:
+
+```
+• We introduce a new approach to translate functions from a programming language to another,
+that is purely based on monolingual source code.
+• We show that TransCoder successfully manages to grasp complex patterns specific to each
+language, and to translate them to other languages.
+• We show that a fully unsupervised method can outperform commercial systems that leverage
+rule-based methods and advanced programming knowledge.
+• We build and release a validation and a test set composed of 852 parallel functions in 3
+languages, along with unit tests to evaluate the correctness of generated translations.
+• We will make our code and pretrained models publicly available.
+```
+В видео можно послушать комментарии.
+
+Paper:
+[https://arxiv.org/pdf/2006.03511](https://arxiv.org/pdf/2006.03511)
+
+Video:
+[https://www.youtube.com/watch?v=xTzFJIknh7E&app=desktop](https://www.youtube.com/watch?v=xTzFJIknh7E&app=desktop)
+

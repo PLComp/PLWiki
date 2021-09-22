@@ -1,0 +1,10 @@
+tags: published autotuning machinelearning compiler optimization
+title: 2020-05-30 Использование рекомендательных систем для автонастройки...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Использование рекомендательных систем для автонастройки компилятора, с учетом собранной ранее информации. Результаты внушают оптимизм.
+**A Collaborative Filtering Approach for the Automatic Tuning of Compiler Optimisations**
+[https://arxiv.org/pdf/2005.04092.pdf](https://arxiv.org/pdf/2005.04092.pdf)
+

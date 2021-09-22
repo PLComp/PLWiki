@@ -1,0 +1,15 @@
+tags: published JIT Lua
+title: 2020-10-16 Обсуждения вокруг эффективности интерпретатора и...
+type: text/x-markdown
+
+Автор: Vladimir Kazanov
+
+Обсуждения вокруг эффективности интерпретатора и компилятора LuaJIT не утихают в нишевых сообществах до сих пор, при этом сам автор развернутых пояснений так и не оставил. Отдельные его комментарии можно найти на Reddit и в рассылке lua:
+
+[http://lua-users.org/lists/lua-l/2008-07/msg00651.html](http://lua-users.org/lists/lua-l/2008-07/msg00651.html)
+[http://lua-users.org/lists/lua-l/2010-11/msg00437.html](http://lua-users.org/lists/lua-l/2010-11/msg00437.html)
+[http://lua-users.org/lists/lua-l/2011-02/msg00671.html](http://lua-users.org/lists/lua-l/2011-02/msg00671.html)
+[http://lua-users.org/lists/lua-l/2011-02/msg00742.html](http://lua-users.org/lists/lua-l/2011-02/msg00742.html)
+[https://www.reddit.com/r/programming/comments/hkzg8/author_of_luajit_explains_why_compilers_cant_beat/c1w8xyz/?context=3](https://www.reddit.com/r/programming/comments/hkzg8/author_of_luajit_explains_why_compilers_cant_beat/c1w8xyz/?context=3)
+[https://www.reddit.com/r/programming/comments/badl2/luajit_2_beta_3_is_out_support_both_x32_x64/c0lrus0/](https://www.reddit.com/r/programming/comments/badl2/luajit_2_beta_3_is_out_support_both_x32_x64/c0lrus0/)
+

@@ -1,0 +1,31 @@
+tags: published garbagecollection scheme
+title: 2021-02-07 На Хабре несколько дней назад появилась  статья, популярно...
+type: text/x-markdown
+
+Автор: Vladimir Kazanov
+
+На Хабре несколько дней назад появилась  статья, популярно поясняющая знаменитую технику реализации языка Scheme - Cheney on the M.T.A. Статья излагает историю названия и объясняет работу остроумного подхода к сборке мусора.
+
+Исходный код Scheme здесь сначала должен быть преобразован в представление с *продолжениями* (см., например, книгу Compiling with Continuations). Функции этого представления один к одному компилируются в функции на языке C. Многочисленные временные значения, характерные для Scheme, сначала размещаются на стеке вызовов C. Во время работы программы стек вызовов функций C будет расти, так как при компиляции с продолжениями функции не возвращаются к точке исходного вызова.
+
+При превышении допустимого размера стек сбрасывается вызовом longjmp. Размер проверяется, например, через численное значение адреса временной переменной. Перед сбросом живые значения из стека перемещаются в кучу для зачистки алгоритмом Чейни, мертвые же значения отбрасываются автоматически.
+
+Техника сильно упрощает компиляцию Scheme в C (например, рекурсивные вызовы и их оптимизацию, легко выражаются продолжения), из-за чего ее используют минимум два популярных компилятора: Cyclone и Chicken.
+
+Статья на Хабре: [https://habr.com/ru/company/ruvds/blog/540502/](https://habr.com/ru/company/ruvds/blog/540502/)
+
+Подробности реализации техники от разработчика Chicken Scheme:
+[https://www.more-magic.net/posts/internals-gc.html](https://www.more-magic.net/posts/internals-gc.html)
+
+Реализация Cyclone: [https://justinethier.github.io/cyclone/docs/Garbage-Collector](https://justinethier.github.io/cyclone/docs/Garbage-Collector)
+
+Оригинальная публикация по Cheney on the MTA: [http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=3A988CF024FE807165D1CFA957445BC8?doi=10.1.1.54.7143&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=3A988CF024FE807165D1CFA957445BC8?doi=10.1.1.54.7143&rep=rep1&type=pdf)
+
+Алгоритм сборки мусора Чейни: [https://people.cs.umass.edu/~emery/classes/cmpsci691s-fall2004/papers/p677-cheney.pdf](https://people.cs.umass.edu/~emery/classes/cmpsci691s-fall2004/papers/p677-cheney.pdf)
+
+Компиляторы, использующий другие подходы к компиляции в язык C:
+
+[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.8424&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.8424&rep=rep1&type=pdf) - Bigloo - компилятор Scheme и Standard ML
+
+[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.48.8788&rep=rep1&type=pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.48.8788&rep=rep1&type=pdf) - Gambit - компилятор Scheme
+

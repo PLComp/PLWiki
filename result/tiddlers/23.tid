@@ -1,0 +1,29 @@
+tags: published conf jit llvm cps pe
+title: 2020-05-21 Недавно (27-28 апреля, 2020) состоялся европейский...
+type: text/x-markdown
+
+Автор: None
+
+Недавно (27-28 апреля, 2020) состоялся европейский симпозиум по Лиспу.
+
+**European Lisp Symposium**
+[https://www.european-lisp-symposium.org/2020/](https://www.european-lisp-symposium.org/2020/)
+Видеозаписи докладов: [https://www.youtube.com/playlist?list=PLA66mD-6yK8yjlJCI0Ay2f2IvvmB9Ktga](https://www.youtube.com/playlist?list=PLA66mD-6yK8yjlJCI0Ay2f2IvvmB9Ktga)
+
+Ниже краткая информация о 3 докладах по околокомпиляторной тематике:
+
+**Partial Evaluation Based CPS Transformation: An Implementation Case Study**
+Описание компилятора для диалекта Лиспа pLisp. В компиляторе используются частичные вычисления и CPS.
+Слайды: [https://www.european-lisp-symposium.org/static/2020/jayaprakash-slides.pdf](https://www.european-lisp-symposium.org/static/2020/jayaprakash-slides.pdf)
+Текст доклада в сборнике: [https://www.european-lisp-symposium.org/static/proceedings/2020.pdf](https://www.european-lisp-symposium.org/static/proceedings/2020.pdf)
+
+**LLVM Code Generation for Open Dylan**
+Dylan — это диалект Лиспа с Алгол-подобным синтаксисом. В начале 90-х этот язык развивался компанией Apple. В докладе представлено описание генератора кода для Dylan на основе LLVM.
+Слайды: [https://www.european-lisp-symposium.org/static/2020/housel-slides.pdf](https://www.european-lisp-symposium.org/static/2020/housel-slides.pdf)
+Текст доклада в сборнике: [https://www.european-lisp-symposium.org/static/proceedings/2020.pdf](https://www.european-lisp-symposium.org/static/proceedings/2020.pdf)
+
+**Later Binding: Just in Time Compilation of a Younger Dynamic Programming Language**
+Краткий анализ компилятора LuaJIT
+Видео выступления: [https://www.youtube.com/watch?v=FBk5XAEhu2s](https://www.youtube.com/watch?v=FBk5XAEhu2s)
+Текст доклада в сборнике: [https://www.european-lisp-symposium.org/static/proceedings/2020.pdf](https://www.european-lisp-symposium.org/static/proceedings/2020.pdf)
+

@@ -1,0 +1,23 @@
+tags: published optimization
+title: 2020-05-12 Работы по практическому применению передовых подходов...
+type: text/x-markdown
+
+Автор: None
+
+Работы по практическому применению передовых подходов E-Graphs (дедуктивный синтез программ) и Equality Saturation (решение для проблемы phase ordering).
+
+Особенно интересно, что для серьезных примеров использования взяты области, далекие от традиционных целевых представлений компиляторов. Это показывает, что компиляторные технологии имеют более широкое применение, чем иногда принято думать.
+
+**Carpentry Compiler**
+[https://grail.cs.washington.edu/projects/carpentrycompiler/files/CarpentryCompiler.pdf](https://grail.cs.washington.edu/projects/carpentrycompiler/files/CarpentryCompiler.pdf)
+
+**Synthesizing Structured CAD Models with Equality Saturation and Inverse Transformations**
+[https://jamesrwilcox.com/szalinski.pdf](https://jamesrwilcox.com/szalinski.pdf)
+
+Для работы с E-Graphs авторами разработана библиотека egg (есть веб-демо).
+
+**egg: Easy, Efficient, and Extensible E-graphs**
+[https://arxiv.org/pdf/2004.03082.pdf](https://arxiv.org/pdf/2004.03082.pdf)
+
+[https://github.com/mwillsey/egg](https://github.com/mwillsey/egg)
+

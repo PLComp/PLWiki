@@ -1,0 +1,15 @@
+tags: published parsing
+title: 2020-05-14 Две недавние статьи с участием Alessandro Warth
+type: text/x-markdown
+
+Автор: None
+
+Две недавние статьи с участием Alessandro Warth. A. Warth — разработчик системы oMeta и автор известной работы по адаптации Packrat-парсеров для поддержки левосторонней рекурсии.
+
+**Incremental Packrat Parsing** (оригинальная идея по использованию Pakrat-таблицы для реализации инкрементального разбора)
+[https://dl.acm.org/doi/pdf/10.1145/3136014.3136022](https://dl.acm.org/doi/pdf/10.1145/3136014.3136022)
+
+**Recognising and Generating Terms using Derivatives of Parsing Expression Grammars**
+Использование производных Бржозовского в PEG-парсере для порождения предложений описываемого языка. Может использоваться в задаче тестирования компилятора (fuzzing). Но особенно интересно расширить эту идею на PEG с иерархическими структурами данных -- и порождать тестовые примеры для них.
+[https://arxiv.org/pdf/1801.10490.pdf](https://arxiv.org/pdf/1801.10490.pdf)
+

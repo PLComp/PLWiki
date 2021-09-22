@@ -1,0 +1,11 @@
+tags: published JIT lua
+title: 2020-07-25 Детальный анализ трассирующего JIT-компилятора Lua
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Детальный анализ трассирующего JIT-компилятора Lua
+
+**LuaJIT**
+[https://github.com/MethodicalAcceleratorDesign/MADdocs/blob/master/luajit/luajit-doc.pdf](https://github.com/MethodicalAcceleratorDesign/MADdocs/blob/master/luajit/luajit-doc.pdf)
+

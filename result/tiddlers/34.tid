@@ -1,0 +1,11 @@
+tags: published ocaml
+title: 2020-06-02 Очередная работа Мюнш-Макканьони по превращению Окамла в...
+type: text/x-markdown
+
+Автор: Alex Gryzlov
+
+Очередная работа Мюнш-Макканьони по превращению Окамла в своеобразный конкурент Раста, черновик предложения о добавлении возможности работы с off-heap указателями:
+
+**Towards better systems programming in OCaml with out-of-heap allocation (draft)**
+[https://github.com/gadmm/RFCs/blob/interop/rfcs/interop.md](https://github.com/gadmm/RFCs/blob/interop/rfcs/interop.md)
+

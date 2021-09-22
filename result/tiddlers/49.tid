@@ -1,0 +1,12 @@
+tags: published analysis smt
+title: 2020-10-16 Пособие по реализации проверки для refinement-типов
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Пособие по реализации проверки для refinement-типов. В духе разработки компиляторов на основе техники nanopass. Предикаты проверяются с помощью SMT-решателя Z3.
+
+**Refinement Types: A Tutorial**
+[https://arxiv.org/abs/2010.07763](https://arxiv.org/abs/2010.07763)
+[https://github.com/ranjitjhala/sprite-lang](https://github.com/ranjitjhala/sprite-lang)
+

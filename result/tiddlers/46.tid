@@ -1,0 +1,13 @@
+tags: published 
+title: 2020-07-04 Впечатляющая подборка материалов от серьезно настроенного...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Впечатляющая подборка материалов от серьезно настроенного исследователя.
+
+По вопросам корректности компиляторов: [https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md](https://github.com/MattPD/cpplinks/blob/master/compilers.correctness.md)
+
+По статическому и динамическому анализу: [https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef](https://gist.github.com/MattPD/00573ee14bf85ccac6bed3c0678ddbef)
+
+По компиляторам в целом: [https://github.com/MattPD/cpplinks/blob/master/compilers.md](https://github.com/MattPD/cpplinks/blob/master/compilers.md)

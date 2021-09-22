@@ -1,0 +1,25 @@
+tags: published history analysis
+title: 2020-05-22 Возможно, вы уже слышали новость о древнем GW-BASIC
+type: text/x-markdown
+
+Автор: None
+
+Возможно, вы уже слышали новость о древнем GW-BASIC. Компания Microsoft выложила исходники интерпретатора на github: [https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/](https://devblogs.microsoft.com/commandline/microsoft-open-sources-gw-basic/)
+
+В заметке по ссылке есть одна интригующая фраза: "Microsoft was able to generate a substantial amount of the code for a port from the sources of a master implementation. (Alas, sorry, we’re unable to open-source the ISA translator.)". И действительно, текст на языке ассемблера для 8088 был получен автоматически с помощью специального транслятора. При этом даже комментарии в коде остались нетронутыми, там речь идет, судя по всему, о 8080.
+
+В статье из журнала Byte за 1982 год сравниваются возможности трех трансляторов, которые автоматически преобразуют код 8-битных процессоров 8080/Z80 для CP/M в 16-битный код 8088/8086 для MS-DOS: [https://tech-insider.org/personal-computers/research/acrobat/8206-b.pdf](https://tech-insider.org/personal-computers/research/acrobat/8206-b.pdf)
+
+Особенно выделяется среди этих трансляторов **XLT86** (8080 -> 8086) от компании Digital Research. Этот транслятор — детище Гэри Килдалла, о котором специально говорить, наверное, нет необходимости. В области построения компиляторов Килдалл известен своей работой A unified approach to global program optimization (1973): [https://dl.acm.org/doi/pdf/10.1145/512927.512945](https://dl.acm.org/doi/pdf/10.1145/512927.512945)
+
+Статья Килдалла до сих пор находится в числе самых цитируемых по компиляторной тематике и речь идет об алгоритме анализа потока данных, который позже был описан во множестве учебников и применяется в самых современных компиляторах: [http://compcert.inria.fr/doc-1.6/html/Kildall.html](http://compcert.inria.fr/doc-1.6/html/Kildall.html)
+
+Вернемся, однако, к XLT86. К счастью, сохранилась документация к транслятору: [http://www.s100computers.com/Software%20Folder/Assembler%20Collection/Digital%20Research%20XLT86%20Manual.pdf](http://www.s100computers.com/Software%20Folder/Assembler%20Collection/Digital%20Research%20XLT86%20Manual.pdf)
+
+Из нее можно узнать, в частности, что:
+
+1. Трансляция состоит из 5 фаз.
+2. В начале определяются линейные участки и строится граф потока управления. Затем проводится глобальный анализ потока данных для определения "живых" регистров и флагов процессора.
+3. Сам процесс "выбора команд" элегантно описан табличным образом. Некоторые правила преобразований являются условными и зависят от ранее полученных результатов анализа потока данных.
+4. Транслятор написан на ЯП PL/I-80 и имеет ограничение на размер входной программы — не более 6 Kбайт.
+

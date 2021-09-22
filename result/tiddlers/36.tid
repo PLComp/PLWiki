@@ -1,0 +1,10 @@
+tags: published smt superoptimizer
+title: 2020-06-05 Доклад Improving Compiler Construction Using Formal...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Доклад **Improving Compiler Construction Using Formal Methods** (Jubi Taneja)
+Обзор работ по теме использования супероптимизатора Souper в различных фазах компиляции (статический анализ, автоматизация создания правил локальной оптимизации).
+[https://www.youtube.com/watch?v=de8Ak0nY1hA](https://www.youtube.com/watch?v=de8Ak0nY1hA)
+

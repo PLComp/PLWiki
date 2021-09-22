@@ -1,0 +1,10 @@
+tags: published lisp interpreter
+title: 2020-05-19 Femtolisp — минималистичный интерпретатор диалекта LISP
+type: text/x-markdown
+
+Автор: None
+
+**Femtolisp** — минималистичный интерпретатор диалекта LISP. 
+[https://github.com/JeffBezanson/femtolisp](https://github.com/JeffBezanson/femtolisp)
+Автор стал впоследствии работать над Julia.  На femtolisp написаны лексер и парсер Julia. 
+

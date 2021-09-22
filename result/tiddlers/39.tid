@@ -1,0 +1,11 @@
+tags: published analysis parsing
+title: 2020-06-10 Автоматическое извлечение КС-грамматики на основе...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Автоматическое извлечение КС-грамматики на основе динамического анализа управляющего графа программы на примерах входных данных. Любопытно, что авторы не стали даже упоминать грамматическое сжатие.
+
+**Mining Input Grammars from Dynamic Control Flow**
+[https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf](https://publications.cispa.saarland/3101/1/fse2020-mimid.pdf)
+

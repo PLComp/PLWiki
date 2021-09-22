@@ -1,0 +1,11 @@
+tags: published analysis
+title: 2020-06-10 Авторы оценивают верхнюю и нижнюю границы вычислительной...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Авторы оценивают верхнюю и нижнюю границы вычислительной сложности статического анализа указателей Андерсена (APA) и приводят свои варианты реализации APA.
+
+**The Fine-Grained Complexity of Andersen’s Pointer Analysis**
+[https://arxiv.org/pdf/2006.01491.pdf](https://arxiv.org/pdf/2006.01491.pdf)
+

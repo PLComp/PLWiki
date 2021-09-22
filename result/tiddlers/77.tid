@@ -1,0 +1,32 @@
+tags: published dominator lengauertarjan fortranh llvm gcc
+title: 2021-03-26 Представленный в 1969 году компилятор Fortran-H применял...
+type: text/x-markdown
+
+Автор: Vladimir Kazanov
+
+Представленный в 1969 году компилятор Fortran-H применял множество прежде трудных оптимизаций. Ключом к ним стала новаторская техника статического анализа: использование доминаторов узлов графа потока исполнения програмы.
+
+Доминатором заданного узла называют такой узел, через который проходят все пути от входного узла к заданному. Непосредственные (то есть ближайшие к каждому из узлов) доминаторы образуют дерево доминаторов с корнем во входном узле графа.
+
+Fortran-H показал, что в сочетании с анализом потоков данных отношение доминирования позволяет расширить до глобальной область применения локальных оптимизаций. К примеру, при помощи доминаторов проводилось удаление общих подвыражений: если среди доминаторов текущего узла уже вычислялось какое-либо выражение и ни один из операндов на пути к узлу не менялся, то результат выражения можно не вычислять повторно.
+
+Одной из проблем использованного в Fortran-H метода поиска доминаторов стала высокая алгоритмическая сложность. Алгоритм Пурдома-Мура (Purdom-Moore, по именам разработчиков компилятора) элементарно объясняется и реализуется, но имеет квадратичную сложность.
+
+Более эффективная версия алгоритма сложностью в O(m*log n) будет представлена только через 10 лет в статье 1979 года A Fast Algorithm for Finding Dominators in a Flowgraph за авторством Томаса Ленгауэра (Thomas Lengauer) и Роберта Тарьяна (Robert Tarjan).
+
+Несмотря на наличие эффективного алгоритма доминаторы широко не использовались, пока в знаменитой публикации 1989 года (Efficiently Computing Static Single Assignment Form and the Control Dependence Graph) доминаторы не были использованы для размещения phi-узлов при построении SSA.
+
+На волне обновленного интереса были предложены новые применения доминаторов: глобальная нумерация значений, глобальное планирование инструкций и прочие. Исследователи стали предлагать альтернативные алгоритмы поиска доминаторов, которые, впрочем, широкого распространения не получили, а алгоритм Ленгауэра-Тарьяна (или просто ЛТ) до сих пор широко используется, в том числе в GCC и LLVM.
+
+[https://en.wikipedia.org/wiki/Dominator_(graph_theory)](https://en.wikipedia.org/wiki/Dominator_(graph_theory))
+
+[https://www.cs.princeton.edu/courses/archive/fall03/cs528/handouts/a%20fast%20algorithm%20for%20finding.pdf](https://www.cs.princeton.edu/courses/archive/fall03/cs528/handouts/a%20fast%20algorithm%20for%20finding.pdf) - алгоритм Ленгауэра-Тарьяна  (1979)
+
+[https://www.researchgate.net/profile/Edward-Lowry/publication/220421196_Object_code_optimization/links/564ca77708aedda4c13432b4/Object-code-optimization.pdf](https://www.researchgate.net/profile/Edward-Lowry/publication/220421196_Object_code_optimization/links/564ca77708aedda4c13432b4/Object-code-optimization.pdf) - описание реализации Fortran-H (1969), где впервые формулируется алгоритм Пурдома-Мура.
+
+[http://pages.cs.wisc.edu/~fischer/cs701.f08/ssa.pdf](http://pages.cs.wisc.edu/~fischer/cs701.f08/ssa.pdf) - получение SSA (1989)
+
+[https://www.doc.ic.ac.uk/~livshits/classes/CO444H/reading/dom14.pdf](https://www.doc.ic.ac.uk/~livshits/classes/CO444H/reading/dom14.pdf) - предложение Купера по получению доминаторов путем анализа потоков данных (2001) 
+
+[https://github.com/gcc-mirror/gcc/blob/master/gcc/dominance.c](https://github.com/gcc-mirror/gcc/blob/master/gcc/dominance.c) - реализация алгоритма ЛТ в GCC
+

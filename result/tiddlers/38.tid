@@ -1,0 +1,15 @@
+tags: published solver analysis
+title: 2020-06-07 Любопытная заметка от Intel на тему использования внешнего...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Любопытная заметка от Intel на тему использования внешнего решателя задач целочисленного программирования в LLVM.
+Речь идет об оптимальной расстановке команды LFENCE в управляющем графе. Это нужно для предотвращения LVI-атак.
+
+**An Optimized Mitigation Approach for Load Value Injection**
+[https://software.intel.com/security-software-guidance/insights/optimized-mitigation-approach-load-value-injection](https://software.intel.com/security-software-guidance/insights/optimized-mitigation-approach-load-value-injection)
+
+ILP-решатель для автоматической вставки fence применяли и ранее. См., например, работу **Don’t sit on the fence. A static analysis approach to automatic fence insertion**:
+[https://arxiv.org/pdf/1312.1411.pdf](https://arxiv.org/pdf/1312.1411.pdf)
+

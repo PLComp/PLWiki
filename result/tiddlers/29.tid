@@ -1,0 +1,10 @@
+tags: published dsl semantics synthesis
+title: 2020-05-27 Halide — яркий пример современного и популярного DSL для...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Halide — яркий пример современного и популярного DSL для высокопроизводительных вычислений (обработка изображений, нейросети). В работе по ссылке ниже представлена его формальная семантика. Достаточная, по большому счету, для разработки собственного компилятора Halide. Любопытно, что в описании трансляции в императивное представление использован формализм из области синтеза программ.
+**Formal Semantics for the Halide Language**
+[https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-40.pdf](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2020/EECS-2020-40.pdf)
+

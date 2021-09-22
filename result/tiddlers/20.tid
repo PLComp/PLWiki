@@ -1,0 +1,14 @@
+tags: published synthesis jit bpf
+title: 2020-05-19 Работа по синтезу программ с использованием Rosette...
+type: text/x-markdown
+
+Автор: None
+
+Работа по синтезу программ с использованием Rosette (Racket). Cинтезируется JIT-компилятор DSL BPF (ядро Linux) в машинный код (в примере использован RISC-V)
+**Synthesizing JIT Compilers for In-Kernel DSLs**
+[https://www.cs.utexas.edu/~isil/jitsynth.pdf](https://www.cs.utexas.edu/~isil/jitsynth.pdf)
+
+Подробности о BPF VM:
+**BPF: A New Type of Software**
+[http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html](http://www.brendangregg.com/blog/2019-12-02/bpf-a-new-type-of-software.html)
+

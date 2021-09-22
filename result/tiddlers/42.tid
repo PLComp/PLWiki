@@ -1,0 +1,11 @@
+tags: published analysis
+title: 2020-06-15 Подход к выявлению "семантического клонов" в программе
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Подход к выявлению "семантического клонов" в программе. Основан на насыщении равенствами и забытой концепции Programmer’s Apprentice. Утверждается, что работает лучше, чем популярное в этой области представление PDG.
+
+**Semantic Code Search via Equational Reasoning**
+[https://dl.acm.org/doi/pdf/10.1145/3385412.3386001](https://dl.acm.org/doi/pdf/10.1145/3385412.3386001)
+

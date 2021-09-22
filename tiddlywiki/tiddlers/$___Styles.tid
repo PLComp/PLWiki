@@ -1,0 +1,20 @@
+created: 20181220173752445
+modified: 20181220173839717
+revision: 0
+tags: $:/tags/Stylesheet
+title: $:/_Styles
+type: text/vnd.tiddlywiki
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+@media (min-width: {{$:/themes/tiddlywiki/vanilla/metrics/sidebarbreakpoint}}) {
+
+	html .tc-story-river {
+		width: 800px;
+	}
+
+	html .tc-sidebar-scrollable {
+		margin-left: 358px;
+	}
+
+}

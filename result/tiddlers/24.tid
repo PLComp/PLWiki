@@ -1,0 +1,16 @@
+tags: published langworkbench dsl nanopass
+title: 2020-05-21 Особенно же интересными (субъективно, разумеется) событиями...
+type: text/x-markdown
+
+Автор: None
+
+Особенно же интересными (субъективно, разумеется) событиями симпозиума по Лиспу оказались: доклад и семинар по передовому фреймворку (набор eDSL на языке Scheme) для быстрой разработки компиляторов Nanopass. По Nanopass как раз не хватало свежей, актуальной информации в авторском изложении.
+
+Доклад **The Nanopass Framework as a Nanopass Compiler**
+Слайды: [https://www.european-lisp-symposium.org/static/2020/keep-slides-keynote.pdf](https://www.european-lisp-symposium.org/static/2020/keep-slides-keynote.pdf)
+Видео: [https://www.youtube.com/watch?v=lqVN1fGNpZw](https://www.youtube.com/watch?v=lqVN1fGNpZw)
+
+Семинар **Mixing Mutability into the Nanopass Framework**
+Слайды: [https://www.european-lisp-symposium.org/static/2020/keep-slides-workshop.pdf](https://www.european-lisp-symposium.org/static/2020/keep-slides-workshop.pdf)
+Видео: [https://www.youtube.com/watch?v=wTGlKCfP90A](https://www.youtube.com/watch?v=wTGlKCfP90A)
+

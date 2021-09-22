@@ -1,0 +1,17 @@
+tags: published codegen
+title: 2020-05-11 Статьи по современным легковесным методам порождения кода
+type: text/x-markdown
+
+Автор: None
+
+Статьи по современным легковесным методам порождения кода
+
+**Destination-Driven Code Generation**
+[https://pdfs.semanticscholar.org/dcb8/8719880e1f76ad71fb1c5aebb118e2ecfe71.pdf](https://pdfs.semanticscholar.org/dcb8/8719880e1f76ad71fb1c5aebb118e2ecfe71.pdf)
+
+**One-pass Code Generation in V8**
+[https://github.com/eatonphil/one-pass-code-generation-in-v8/blob/master/One-pass%20Code%20Generation%20in%20V8.pdf](https://github.com/eatonphil/one-pass-code-generation-in-v8/blob/master/One-pass%20Code%20Generation%20in%20V8.pdf)
+
+**HotpathVM: An Effective JIT Compiler for Resource-constrained Devices**
+[https://static.usenix.org/events/vee06/full_papers/p144-gal.pdf](https://static.usenix.org/events/vee06/full_papers/p144-gal.pdf)
+

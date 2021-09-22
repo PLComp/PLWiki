@@ -1,0 +1,10 @@
+tags: published 
+title: 2020-06-26 Небольшая заметка на тему вопросов канонизации внутренних...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+Небольшая заметка на тему вопросов канонизации внутренних представлений в компиляторах. Тема затронута очень поверхностно, но даже в таком виде, думаю, заслуживает более пристального внимания со стороны компиляторщиков.
+
+**Canonicalization**
+[https://sunfishcode.github.io/blog/2018/10/22/Canonicalization.html](https://sunfishcode.github.io/blog/2018/10/22/Canonicalization.html)

@@ -1,0 +1,11 @@
+tags: published synthesis smt
+title: 2020-06-17 В рамках PLDI Alex Aiken (известный многим по курсам...
+type: text/x-markdown
+
+Автор: Peter Sovietov
+
+В рамках PLDI Alex Aiken (известный многим по курсам компиляторостроения) рассказал о проекте TASO -- это автоматический синтез графовых оптимизирующих преобразований для нейросетевых фреймворков. Перечисляются все графы-шаблоны нейросетевых операций до фиксированного размера, между графами устанавливается соответствие с помощью Z3, преобразования графов программ происходят с помощью механизма отката и стоимостной модели. В целом, рассказ повторяет эту статью:
+
+**TASO: Optimizing Deep Learning Computation with Automatic Generation of Graph Substitutions**
+[https://cs.stanford.edu/~padon/taso-sosp19.pdf](https://cs.stanford.edu/~padon/taso-sosp19.pdf)
+

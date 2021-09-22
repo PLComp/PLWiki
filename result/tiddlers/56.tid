@@ -1,0 +1,16 @@
+tags: published 
+title: 2020-11-24 Классический редактор GNU Emacs в скором времени получит,...
+type: text/x-markdown
+
+Автор: Vladimir Kazanov
+
+Классический редактор GNU Emacs в скором времени получит, наконец, нативный компилятор для своего языка расширений Emacs Lisp. Это уже третья попытка решить сопутствующие проблемы, но Andrea Corallo за последний год построил на базе libgccjit компилятор, показывающий достойный результат в пакете elisp-benchmarks. Уже сейчас компилятор готовится к вливанию в основную ветку репозитория GNU Emacs.
+
+Презентация автора на Linux Plumbers Conference 2020: 
+[http://akrl.sdf.org/Kludging_LPC_2020.pdf](http://akrl.sdf.org/Kludging_LPC_2020.pdf)
+
+Дневник разработки:
+[http://akrl.sdf.org/gccemacs.html](http://akrl.sdf.org/gccemacs.html)
+
+Обсуждение (в положительном ключе) состояния ветки репозитории:
+[https://debbugs.gnu.org/cgi/bugreport.cgi?bug=43725](https://debbugs.gnu.org/cgi/bugreport.cgi?bug=43725)
