@@ -7,8 +7,6 @@ PLComp = '''tags: %s
 title: PLComp
 type: text/vnd.tiddlywiki
 
-PLComp
-
 <<list-links "[tag[published]reverse[]]">>
 '''
 
